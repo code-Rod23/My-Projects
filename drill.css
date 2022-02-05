@@ -1,0 +1,157 @@
+#mission{
+  font-family: "Gochi Hand", cursive;
+  line-break: strict;
+  padding-top: 80px;
+  font-size: 30px;
+  position: absolute;
+  left: 780px;
+  width: 800px;
+  /* border: 6px solid #dfc116c9;  */
+  padding: 10px;
+  padding-top: 130px;
+}
+
+
+.social{
+  padding-left: 90%;
+  position: absolute;
+  top: 19px;
+  right: 36px;
+  font-size: 18px;
+ 
+}
+
+
+#logo {
+  max-height: 120px;
+  padding-left: 23%;
+  padding-top: 0%;
+  height: 999px;
+  float: 10px;
+}
+
+.nav {
+  padding-left: 25px;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 50px;
+  text-align: center;
+  font-family: "Gochi Hand", cursive;
+}
+nav a {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #16151b;
+  margin: 0 15px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  position: relative;
+  display: inline-block;
+}
+nav a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #16151b ;
+  top: 47%;
+  animation: out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
+nav a:hover:before {
+  animation: in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
+
+@keyframes in {
+  0% {
+    width: 0;
+    left: 0;
+    right: auto;
+  }
+  100% {
+    left: 0;
+    right: auto;
+    width: 100%;  
+  }
+}
+@keyframes out {
+  0% {
+    width: 100%;
+    left: auto;
+    right: 0;
+  }
+  100% {
+    width: 0;
+    left: auto;
+    right: 0;
+  }
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.underline {
+  font-family: "Gochi Hand", cursive;
+  max-height: ;
+}
+
+.underline {
+  padding-top: 75px;
+  padding-left: 855px;
+   /* border-bottom: black solid 4px; */
+   text-decoration-line: underline;
+   text-underline-position: under;
+  
+}
+
+img{
+  max-width: 500%;
+    height: auto;
+    /* padding-top: 70px; 
+    padding-left: 35px;*/
+    border-radius: 30px 100px 110px;
+    padding-left: 49px;
+    padding-top: 50px;
+    wi
+}
+
+.wrapper{
+  width: 120px;
+  height: 120px;
+  height: auto;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+
+/* img{ */
+  border-radius: 15px 50px 30px;
+  /* background: #73AD21; */
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  background-image: url();
+}
+
+
+
+
+
+
+
+}
+}
+h1 {
+}
